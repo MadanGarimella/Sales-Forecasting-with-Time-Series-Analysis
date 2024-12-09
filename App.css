@@ -1,0 +1,32 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.data-upload {
+  margin: 20px 0;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+}
